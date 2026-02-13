@@ -1,25 +1,19 @@
-📘 Persistência de Dados em Java
 
-Este diretório reúne exemplos práticos sobre persistência de dados em Java, abordando desde os conceitos fundamentais de SQL até a utilização de JDBC e JPA para integração com banco de dados relacional.
+Java Persistência ☕
 
-O objetivo é consolidar a base necessária para o desenvolvimento de aplicações backend, especialmente com Spring Boot.
+Este repositório reúne meus estudos em Java Persistência, organizados por tópicos fundamentais da camada de acesso a dados.
+O foco é desenvolver código mais estruturado e integrado a banco de dados relacional, preparando a base para Java backend com JPA e Spring Boot.
 
-📌 Conteúdos
+📚 Conteúdos
 🔹 SQL
 
 Modelagem relacional
 
-Criação de tabelas (DDL)
-
-Manipulação de dados (INSERT, UPDATE, DELETE)
+Criação de tabelas
 
 Consultas com SELECT
 
-JOINs
-
-Subqueries
-
-Normalização
+JOIN e Subqueries
 
 🔹 JDBC
 
@@ -31,20 +25,12 @@ PreparedStatement
 
 CRUD completo
 
-Tratamento de exceções
-
-Transações
-
 🔹 JPA
 
 Mapeamento de entidades
 
-Anotações (@Entity, @Id, @GeneratedValue)
-
-Relacionamentos (@OneToMany, @ManyToOne, @ManyToMany)
+Relacionamentos
 
 JPQL
 
 Integração com MySQL
-
-Persistência orientada a objetos
