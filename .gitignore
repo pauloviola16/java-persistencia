@@ -1,3 +1,13 @@
+# Compilação
 out/
-.idea/
 *.class
+
+# IDE
+.idea/
+.settings/
+.project
+.classpath
+
+# Dependências
+libs/
+src/libs/
