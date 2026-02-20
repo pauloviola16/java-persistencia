@@ -1,11 +1,9 @@
-package jdbc.insert;
+package jdbc;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.Scanner;
-
-import jdbc.connection.ConnectionFactory;
 
 public class InsertPerson {
 

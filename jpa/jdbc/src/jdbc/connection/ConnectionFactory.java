@@ -1,4 +1,4 @@
-package jdbc.connection;
+package jdbc;
 
 import java.io.IOException;
 import java.sql.Connection;
@@ -23,7 +23,7 @@ public class ConnectionFactory {
     private static Properties getProperties() throws IOException {
         Properties prop = new Properties();
         String caminho = "/conexao.properties";
-        prop.load(ConnectionFactory.class.getResourceAsStream(caminho));
+        prop.load(FabricaConexao.class.getResourceAsStream(caminho));
         return prop;
     }
 }

@@ -1,0 +1,17 @@
+# Compilação
+out/
+*.class
+
+# IDE
+.idea/
+.settings/
+.project
+.classpath
+.vscode/
+
+# Dependências
+libs/
+src/libs/
+
+# Sistema
+.DS_Store

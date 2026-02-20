@@ -1,10 +1,8 @@
-package jdbc.database;
+package jdbc;
 
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
-
-import jdbc.connection.ConnectionFactory;
 
 public class CreatePeopleTable {
 

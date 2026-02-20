@@ -1,12 +1,9 @@
-package jdbc.select;
+package jdbc;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
-import jdbc.connection.ConnectionFactory;
-import jdbc.model.Person;
 
 public class SelectPeopleByName {
     public static void main(String[] args) throws SQLException {
@@ -24,15 +21,15 @@ public class SelectPeopleByName {
         stmt.setString(1,"%" + valor + "%");
         ResultSet resultado = stmt.executeQuery();
 
-        List<Person> pessoas = new ArrayList<>();
+        List<Pessoa2> pessoas = new ArrayList<>();
 
         while(resultado.next()){
             int codigo = resultado.getInt("codigo");
             String nome = resultado.getString("nome");
-            pessoas.add(new Person(nome,codigo));
+            pessoas.add(new Pessoa2(nome,codigo));
         }
 
-        for (Person p: pessoas){
+        for (Pessoa2 p: pessoas ){
             System.out.println(p.getCodigo() + " -> " + p.getNome());
         }
 
